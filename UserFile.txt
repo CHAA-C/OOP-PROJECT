@@ -1,0 +1,9 @@
+00001,Nuttapat,Ngammuk,64010251@kmitl.ac.th,Negative
+00002,Natapol,Tirakhan,64010203@kmitl.ac.th,Negative
+00003,Theerapat,Yeetho,64010389@kmitl.ac.th,Positive
+00004,Dolapatn,Phothnoi,64010270@kmitl.ac.th,Negative
+00005,Daniel,Riyawong,64010272@kmitl.ac.th,Negative
+00006,Suppanat,Sriprathum,elderscroll07@gmail.com,Positive
+00007,Jirayut,Sritawech,tor.gardon.tr@gmail.com,Positive
+00008,Thanusit,Puemkhunthod,TParm99@gmail.com,Negative
+00009,Prayut,Chan-O-Cha,M112@hotmail.com,Positive

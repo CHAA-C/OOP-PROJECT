@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="613.0" style="-fx-background-color: #A1E177;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui.HelloController">
+   <children>
+      <Pane layoutX="-7.0" layoutY="44.0" prefHeight="118.0" prefWidth="620.0" style="-fx-background-color: #4E8E24;">
+         <children>
+            <Label layoutX="148.0" layoutY="37.0" text="COVID-19 APPLICATION" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="tfSEARCH" layoutX="176.0" layoutY="254.0" prefWidth="317.0" />
+      <Label layoutX="113.0" layoutY="258.0" text=" SEARCH :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="btnClose" layoutX="585.0" onMouseClicked="#btnCloseClicked" prefHeight="31.0" prefWidth="6.0" text="x" textFill="#4e8e24">
+         <font>
+            <Font name="Lato Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="8.0" text="This Programs Was Made For Education" textFill="#4e8e24">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="50.0" layoutY="306.0" prefHeight="364.0" prefWidth="506.0">
+        <columns>
+          <TableColumn fx:id="userID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="userNAME" prefWidth="99.0" text="NAME" />
+            <TableColumn fx:id="userSURNAME" prefWidth="102.0" text="SURNAME" />
+            <TableColumn fx:id="userEMAIL" prefWidth="151.0" text="EMAIL" />
+            <TableColumn fx:id="userCOVID" prefWidth="78.0" text="COVID-19" />
+        </columns>
+      </TableView>
+      <Text fill="#4e8e24" layoutX="239.0" layoutY="707.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FILL YOUR DATA CLICK HERE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnHERE" layoutX="281.0" layoutY="717.0" mnemonicParsing="false" onAction="#btnHEREClicked" text="HERE" />
+      <Pane layoutY="198.0" opacity="0.41" prefHeight="25.0" prefWidth="613.0" style="-fx-background-color: #4E8E24;">
+         <children>
+            <Text fill="WHITE" layoutX="166.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL COVID-19 POSITIVE IN THAILAND :  4,415,593" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

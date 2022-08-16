@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="613.0" style="-fx-background-color: #A1E177;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui.userFillController">
+   <children>
+      <Pane layoutX="-7.0" layoutY="44.0" prefHeight="118.0" prefWidth="620.0" style="-fx-background-color: #4E8E24;">
+         <children>
+            <Label layoutX="148.0" layoutY="37.0" text="COVID-19 APPLICATION" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="btnClose" layoutX="585.0" onMouseClicked="#btnCloseClicked" prefHeight="31.0" prefWidth="6.0" text="x" textFill="#4e8e24">
+         <font>
+            <Font name="Lato Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="8.0" text="This Programs Was Made For Education" textFill="#4e8e24">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfID" layoutX="247.0" layoutY="238.0" prefHeight="25.0" prefWidth="250.0" />
+      <Label layoutX="117.0" layoutY="242.0" text="USER ID :" textFill="#4e8e24" />
+      <Label layoutX="117.0" layoutY="309.0" text="NAME :" textFill="#4e8e24" />
+      <TextField fx:id="tfName" layoutX="247.0" layoutY="305.0" prefHeight="25.0" prefWidth="250.0" />
+      <Label layoutX="117.0" layoutY="373.0" text="SURNAME :" textFill="#4e8e24" />
+      <TextField fx:id="tfSURNAME" layoutX="247.0" layoutY="369.0" prefHeight="25.0" prefWidth="250.0" />
+      <Label layoutX="117.0" layoutY="439.0" text="EMAIL :" textFill="#4e8e24" />
+      <TextField fx:id="tfEMAIL" layoutX="247.0" layoutY="435.0" prefHeight="25.0" prefWidth="250.0" />
+      <Label layoutX="117.0" layoutY="508.0" text="COVID-19 STATUS :" textFill="#4e8e24" />
+      <TextField fx:id="tfCOVID" layoutX="247.0" layoutY="504.0" prefHeight="25.0" prefWidth="250.0" />
+      <Button fx:id="btnDONE" layoutX="279.0" layoutY="626.0" mnemonicParsing="false" onAction="#btnDONEClicked" text="DONE" />
+      <Button fx:id="btnBACK" layoutX="280.0" layoutY="697.0" mnemonicParsing="false" onAction="#btnBACKClicked" text="BACK" />
+      <Text fill="#4e8e24" layoutX="235.0" layoutY="594.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FILL YOUR DATA UP THERE" />
+      <Text fill="#4e8e24" layoutX="295.0" layoutY="679.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR" />
+      <Label fx:id="PleaseEnterAllDetail" layoutX="279.0" layoutY="194.0" text="Please Enter all detail !!" textFill="#f5000000">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
